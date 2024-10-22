@@ -1,0 +1,418 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBar_section{
+    background-color: rgb(23, 5, 80);
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+   
+}
+.logo{
+    cursor: pointer;
+}
+.menu_list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: white;
+}
+.menu_list li{
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.menu_list li:hover{
+   background-color: rgb(151, 148, 148);
+}   
+.hire_btn{
+    padding: 9px 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* bannar sec  */
+
+.bannar_section{
+    background-color: rgb(49, 6, 90);
+    color: white;
+    padding-bottom: 50px;
+}
+.bannar_part{
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+.bannar_text h3{
+    color: rgb(248, 111, 3);
+    font-size: 25px;
+}
+.bannar_text h1{
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.frontend{
+    color: rgb(248, 111, 3);
+   
+}
+.bannar_text p{
+    margin-top: 10px;
+    width: 90%;
+}
+.socal_media{
+    margin-top: 30px;
+}
+.socal_media img{
+    margin-right: 15px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 100%;
+}
+.download_btn{
+    margin-top: 30px;
+}
+.download_btn button{
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color:rgb(248, 111, 3) ;
+    color: white;
+   
+}
+.bannar_img{
+    width: 100%;
+}
+
+/* aboutMe_section  */
+
+
+.aboutMe_section{
+    background-color: #170550;
+    color: white;
+}
+.about_container{
+    width: 70%;
+    margin: auto;
+}
+
+.about_title{
+    text-align: center;
+    color: white;
+}
+.about_title h2{
+    font-size: 35px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.me_text{
+    color: #F86F03;
+}
+.about_part{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.my_img{
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+}
+.about_text_part h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about_text_part p{
+    margin-bottom: 25px;
+}
+.about_text_part button{
+    padding: 10px 40px;
+    cursor: pointer;
+    font-weight: 530;
+}
+
+
+/* services_section */
+.services_section{
+    background-color: #31065A;
+}
+.services{
+    width:70% ;
+    margin: auto;
+}
+.services_title h2{
+    color: white;
+    padding-top: 80px;
+    font-size: 35px;
+    text-align: center;
+}
+.all_services{
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    gap: 20px;
+}
+.single_services{
+    background-color: white;
+    text-align: center;
+}
+.single_services img{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30pxs;
+}
+.single_services h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.single_services p{
+    margin-bottom: 40px;
+}
+
+
+/* skils part start  */
+
+.skills_section{
+    background-color: #170550;
+    padding-bottom: 80px;
+}
+.my_skill{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.my_skill h2{
+    font-size: 40px;
+}
+.skill_text{
+    color: #F86F03;
+}
+.skill{
+    width: 70%;
+    margin: auto;
+}
+.skill_details{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.skill_details h5{
+    width: 100px;
+}
+.skill_expart{
+    background-color: #43366A;
+    border-radius:10px ;
+    width: 80%;
+    height: 10px;
+}
+.skill_show{
+    background-color: #F86F03;
+    position: absolute;
+    width: 50%;
+    height: 10px;
+    border-radius: 10px;
+}
+.skill_show_2{
+    background-color: #F86F03;
+    position: absolute;
+    width: 48%;
+    height: 10px;
+    border-radius: 10px;
+}
+.skill_show_3{
+    background-color: #F86F03;
+    position: absolute;
+    width: 45%;
+    height: 10px;
+    border-radius: 10px;
+}
+.skill_show_4{
+    background-color: #F86F03;
+    position: absolute;
+    width: 40%;
+    height: 10px;
+    border-radius: 10px;
+}
+.skill_show_5{
+    background-color: #F86F03;
+    position: absolute;
+    width: 48%;
+    height: 10px;
+    border-radius: 10px;
+}
+.skill_show_6{
+    background-color: #F86F03;
+    position: absolute;
+    width: 40%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+
+/* portfolio_section  */
+.portfolio_section{
+    background-color: #31065A;
+    padding-bottom:80px ;
+}
+.portfolio{
+    width: 70%;
+    margin: auto;
+}
+.portfolio_title{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.portfolio_title h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.my_portfolio{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.portfolio_img img{
+    width: 210px;
+    
+}
+.portfolio_img img:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+
+/* contact_section start  */
+
+.contact_section{
+    background-color: #170550;
+    padding-bottom: 80px;
+}
+.contact_container{
+    width: 70%;
+    margin: auto;
+}
+.contact_title{
+    padding-top: 70px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.contact_title h2{
+    color: white;
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+.contact_part{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
+.my_phone_contact{
+    display: flex;
+    gap: 15px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.full_name input{
+    width: 100%;
+    padding-left: 10px;
+    color: white;
+    height: 30px;
+    background-color: #43366A;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.full_name input::placeholder{
+    color: white;
+}
+.phone_subject{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.phone_input input{
+   padding-right: 60px;
+   height: 30px;
+   background-color: #43366A;
+   border: none;
+   outline: none;
+   border-radius: 20px;
+   padding-left: 10px;
+   color: white;
+}
+.phone_input input::placeholder{
+    color: white;
+}
+
+.subject_input input{
+    padding-right: 60px;
+    height: 30px;
+   background-color: #43366A;
+   border: none;
+   outline: none;
+   border-radius: 20px;
+   padding-left: 10px;
+   color: white;
+}
+.subject_input input::placeholder{
+    color: white;
+}
+
+.messages input{
+    width: 100%;
+    background-color: #43366A;
+    border: none;
+    outline: none;
+    color: white;
+    padding-bottom: 70px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.messages input::placeholder{
+    color: white;
+}
+.sent{
+    text-align: center;
+}
+.sent_btn{
+    
+   width: 150px;
+   height: 40px;
+   margin-top: 18px;
+   background-color: #43366A;
+   color: white;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+
+.footer_part{
+    background-color: #31065A;
+}
+.footer{
+    width: 70%;
+    margin: auto;
+}
+.footer p{
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
